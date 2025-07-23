@@ -45,3 +45,50 @@ img {
   color: #8987a1;
   font-weight: 500;
 }
+
+/* banner styles */
+.banner {
+  align-items: end;
+  justify-content: center;
+  margin-top: 120px;
+}
+.banner-title {
+  font-size: 4rem;
+  font-weight: bold;
+}
+.banner-left {
+  flex: 1;
+  justify-content: flex-end;
+}
+#clr-title {
+  color: #e95a08;
+}
+.banner-left p {
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.5);
+}
+.banner-right {
+  flex: 1;
+  justify-content: space-between;
+}
+
+/* Responsive for mobile */
+@media screen and (max-width: 768px) {
+  body {
+    margin: 0 10px;
+  }
+  .nav-right .links {
+    display: none;
+  }
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-title {
+    font-size: 24px;
+    margin-top: 28px;
+    margin-bottom: 13px;
+  }
+  .banner-left p {
+    font-size: 14px;
+  }
+}
