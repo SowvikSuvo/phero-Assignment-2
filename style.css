@@ -179,7 +179,7 @@ img {
     gap: 10px;
   }
   .btn-primary {
-    padding: 19px 31px;
+    padding: 15px 32px;
     font-size: 15px;
     margin-bottom: 30px;
   }
@@ -203,5 +203,25 @@ img {
   .our-plants .plants-info {
     font-size: 14px;
     text-align: center;
+  }
+  .badge {
+    display: none;
+  }
+  .flower-plants {
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 18px;
+  }
+  .trusted-right h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0px;
+    text-align: center;
+  }
+  .trusted-left img {
+    margin-bottom: 0px;
+  }
+  .trusted-right ul {
+    font-size: 14px;
   }
 }
