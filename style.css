@@ -120,6 +120,39 @@ img {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
 }
+/* trusted styles */
+.flower-plants {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 100px;
+  margin-top: 150px;
+  position: relative;
+}
+.badge {
+  width: 280px;
+  height: 280px;
+  position: absolute;
+  left: 350px;
+  bottom: 440px;
+}
+.trusted-right ul {
+  width: 100%;
+}
+.trusted-right {
+  flex: 1;
+}
+.trusted-left {
+  flex: 1;
+}
+.trusted-right h1 {
+  font-size: 3.1rem;
+  margin-bottom: 20px;
+}
+.trusted-right ul {
+  font-size: 1.3rem;
+  color: rgba(0, 0, 0, 0.5);
+}
 
 /* Responsive for mobile */
 @media screen and (max-width: 768px) {
