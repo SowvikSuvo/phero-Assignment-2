@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Serif", serif;
+}
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+img {
+  max-width: 100%;
+}
+.flex {
+  display: flex;
+}
+
+/* customs styles */
+/* navbar */
+.navbar {
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  margin-top: 25px;
+}
+.links {
+  gap: 48px;
+}
+.nav-right {
+  gap: 48px;
+}
+.links li {
+  list-style: none;
+}
+.links a {
+  text-decoration: none;
+  color: #252432;
+  font-weight: 700;
+}
+.links .shop {
+  color: #8987a1;
+  font-weight: 500;
+}
+.links .about {
+  color: #8987a1;
+  font-weight: 500;
+}
