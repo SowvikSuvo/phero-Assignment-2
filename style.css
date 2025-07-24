@@ -134,6 +134,7 @@ img {
   width: 280px;
   height: 280px;
   position: absolute;
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.564));
   left: 350px;
   bottom: 440px;
 }
@@ -259,7 +260,7 @@ img {
 .email-content {
   position: relative;
   text-align: center;
-  top: 150px;
+  top: 190px;
 }
 .news-section {
   background-image: url(./assets/news-letter-bg.png);
@@ -307,6 +308,7 @@ img {
 }
 .home-footer ul a {
   color: #6b7280;
+
   text-decoration: none;
   list-style: none;
 }
