@@ -296,8 +296,16 @@ img {
 
 /* Responsive for mobile */
 @media screen and (max-width: 768px) {
-  body {
+  .navbar,
+  .banner-left {
     margin: 0 10px;
+  }
+  .Latest-Deals {
+    margin: 0 10px;
+    margin-top: 140px;
+  }
+  .our-plants {
+    margin: 65px 10px;
   }
   .nav-right .links {
     display: none;
@@ -339,6 +347,7 @@ img {
   }
   .plants-info {
     font-size: 14px;
+    text-align: center;
   }
   .our-plants .plants-info {
     font-size: 14px;
@@ -349,7 +358,7 @@ img {
   }
   .flower-plants {
     flex-direction: column;
-    margin-top: 20px;
+    margin: 20px 10px;
     gap: 1px;
   }
   .trusted-right h1 {
