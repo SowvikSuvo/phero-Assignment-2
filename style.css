@@ -297,6 +297,9 @@ img {
 .logo-footer {
   margin-top: 0px;
 }
+.logo-footer img {
+  margin-bottom: 16px;
+}
 
 .logo-footer p {
   font-size: 22px;
@@ -339,6 +342,9 @@ img {
   .navbar,
   .banner-left {
     margin: 0 10px;
+  }
+  .nav-left img {
+    margin-top: 13px;
   }
   .Latest-Deals {
     margin: 0 10px;
@@ -491,5 +497,13 @@ img {
   .email-content {
     text-align: center;
     top: 90px;
+  }
+  .footer-section {
+    flex-direction: column;
+    margin: 50px 10px;
+    gap: 5px;
+  }
+  .home-footer {
+    margin-top: 20px;
   }
 }
