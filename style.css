@@ -289,7 +289,6 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 0px;
 }
 .input-btn input {
   border: none;
@@ -420,5 +419,28 @@ img {
   }
   .left {
     margin-bottom: 45px;
+  }
+
+  .email-content h1 {
+    font-size: 20px;
+  }
+  #email {
+    padding: 13px 14px 13px 15px;
+  }
+  .email-content .btn-primary-subs {
+    padding: 12px 12px 12px 12px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  .news-section {
+    background-image: url(./assets/news-letter-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 275px;
+  }
+  .email-content {
+    text-align: center;
+    top: 90px;
   }
 }
