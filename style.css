@@ -134,7 +134,7 @@ img {
   width: 280px;
   height: 280px;
   position: absolute;
-  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.564));
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.574));
   left: 350px;
   bottom: 440px;
 }
